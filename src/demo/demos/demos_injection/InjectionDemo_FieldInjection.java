@@ -11,6 +11,7 @@ public class InjectionDemo_FieldInjection {
     /**
      * Don't do this, it leads to harder testability.
      */
+    @SuppressWarnings("SpringJavaAutowiredFieldsWarningInspection")
     @Autowired
     private FileSystem fileSystem;
 }

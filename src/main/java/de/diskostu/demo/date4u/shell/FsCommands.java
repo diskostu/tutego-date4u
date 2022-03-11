@@ -16,6 +16,7 @@ public class FsCommands {
     }
 
 
+    @SuppressWarnings("SameReturnValue")
     @ShellMethod("Show application version")
     public String version() {
         return "0.1";
